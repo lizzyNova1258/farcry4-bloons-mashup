@@ -1,0 +1,89 @@
+{
+  "version": "1.0",
+  "waves": [
+    {
+      "waveNumber": 1,
+      "totalEnemies": 7,
+      "reward": 150,
+      "enemyGroups": [
+        {
+          "type": "rebel_raider",
+          "count": 5,
+          "health": 20,
+          "speed": 1.0,
+          "reward": 25
+        },
+        {
+          "type": "animal_hound",
+          "count": 2,
+          "health": 15,
+          "speed": 1.2,
+          "reward": 20
+        }
+      ]
+    },
+    {
+      "waveNumber": 2,
+      "totalEnemies": 10,
+      "reward": 200,
+      "enemyGroups": [
+        {
+          "type": "rebel_raider",
+          "count": 6,
+          "health": 20,
+          "speed": 1.0,
+          "reward": 25
+        },
+        {
+          "type": "armored_rebel",
+          "count": 2,
+          "health": 40,
+          "speed": 0.8,
+          "reward": 50
+        },
+        {
+          "type": "animal_hound",
+          "count": 2,
+          "health": 15,
+          "speed": 1.2,
+          "reward": 20
+        }
+      ]
+    },
+    {
+      "waveNumber": 3,
+      "totalEnemies": 12,
+      "reward": 300,
+      "enemyGroups": [
+        {
+          "type": "animal_hound",
+          "count": 4,
+          "health": 15,
+          "speed": 1.2,
+          "reward": 20
+        },
+        {
+          "type": "armored_rebel",
+          "count": 3,
+          "health": 40,
+          "speed": 0.8,
+          "reward": 50
+        },
+        {
+          "type": "siege_beast",
+          "count": 1,
+          "health": 100,
+          "speed": 0.6,
+          "reward": 150
+        },
+        {
+          "type": "rebel_raider",
+          "count": 4,
+          "health": 20,
+          "speed": 1.0,
+          "reward": 25
+        }
+      ]
+    }
+  ]
+}

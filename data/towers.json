@@ -1,0 +1,137 @@
+{
+  "version": "1.0",
+  "towers": [
+    {
+      "id": "dart_monkey",
+      "name": "Dart Monkey",
+      "cost": 120,
+      "damage": 9,
+      "range": 22,
+      "fireRate": 1.2,
+      "targeting": "first",
+      "type": "projectile",
+      "upgrades": [
+        {
+          "level": 1,
+          "cost": 0,
+          "damage": 9,
+          "range": 22,
+          "fireRate": 1.2
+        },
+        {
+          "level": 2,
+          "cost": 100,
+          "damage": 14,
+          "range": 26,
+          "fireRate": 1.2
+        },
+        {
+          "level": 3,
+          "cost": 200,
+          "damage": 20,
+          "range": 30,
+          "fireRate": 1.2
+        }
+      ]
+    },
+    {
+      "id": "tack_shooter",
+      "name": "Tack Shooter",
+      "cost": 170,
+      "damage": 6,
+      "range": 18,
+      "fireRate": 0.8,
+      "targeting": "area",
+      "type": "burst",
+      "upgrades": [
+        {
+          "level": 1,
+          "cost": 0,
+          "damage": 6,
+          "range": 18,
+          "fireRate": 0.8
+        },
+        {
+          "level": 2,
+          "cost": 120,
+          "damage": 9,
+          "range": 20,
+          "fireRate": 0.8
+        },
+        {
+          "level": 3,
+          "cost": 250,
+          "damage": 12,
+          "range": 23,
+          "fireRate": 0.8
+        }
+      ]
+    },
+    {
+      "id": "sniper_monkey",
+      "name": "Sniper Monkey",
+      "cost": 220,
+      "damage": 25,
+      "range": 36,
+      "fireRate": 0.9,
+      "targeting": "strongest",
+      "type": "single-target",
+      "upgrades": [
+        {
+          "level": 1,
+          "cost": 0,
+          "damage": 25,
+          "range": 36,
+          "fireRate": 0.9
+        },
+        {
+          "level": 2,
+          "cost": 150,
+          "damage": 36,
+          "range": 40,
+          "fireRate": 0.9
+        },
+        {
+          "level": 3,
+          "cost": 300,
+          "damage": 50,
+          "range": 44,
+          "fireRate": 0.9
+        }
+      ]
+    },
+    {
+      "id": "bomb_shooter",
+      "name": "Bomb Shooter",
+      "cost": 260,
+      "damage": 18,
+      "range": 20,
+      "fireRate": 1.0,
+      "targeting": "group",
+      "type": "explosive",
+      "upgrades": [
+        {
+          "level": 1,
+          "cost": 0,
+          "damage": 18,
+          "range": 20,
+          "fireRate": 1.0
+        },
+        {
+          "level": 2,
+          "cost": 180,
+          "damage": 26,
+          "range": 24,
+          "fireRate": 1.0
+        },
+        {
+          "level": 3,
+          "cost": 350,
+          "damage": 38,
+          "range": 27,
+          "fireRate": 1.0
+        }
+      ]
+    }
+  ]
+}

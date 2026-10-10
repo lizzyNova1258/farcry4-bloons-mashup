@@ -1,0 +1,58 @@
+{
+  "version": "1",
+  "title": "Far Cry 4 Bloons Outpost Defense",
+  "tagline": "Defend Far Cry 4 outposts with Bloons TD 6 towers",
+  "description": "Turn your claimed Far Cry 4 outposts into tower defense battlegrounds. Place Dart Monkeys, Tack Shooters, Sniper Monkeys, and Bomb Shooters to defend against rebel sieges. Trigger waves on demand, earn cash, upgrade your towers, and hold the line.",
+  "credits": "Mashup created for Melty.gg",
+  "license": "MIT",
+  "canRemix": true,
+  "games": [
+    {
+      "role": "primary",
+      "slug": "custom-far-cry-4",
+      "name": "Far Cry 4",
+      "required": true
+    },
+    {
+      "role": "companion",
+      "slug": "custom-bloons-td-6",
+      "name": "Bloons TD 6",
+      "required": true,
+      "content": [
+        "tower-logic",
+        "upgrade-paths",
+        "wave-pressure",
+        "enemy-formations"
+      ]
+    }
+  ],
+  "multiplayer": {
+    "mode": "solo",
+    "maxPlayers": 1
+  },
+  "launch": {
+    "kind": "game",
+    "game": "custom-far-cry-4",
+    "exe": "{game}/bin/FarCry4.exe",
+    "args": [
+      "--mod=outpost-defense"
+    ]
+  },
+  "install": {
+    "type": "mod",
+    "destination": "{game}/mods/outpost-defense",
+    "files": [
+      "src/**",
+      "data/**",
+      "README.md"
+    ]
+  },
+  "components": [
+    {
+      "name": "outpost-defense-mod",
+      "type": "mod",
+      "fileName": "outpost-defense-*.zip",
+      "destination": "{game}/mods/outpost-defense"
+    }
+  ]
+}
